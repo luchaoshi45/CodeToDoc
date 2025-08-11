@@ -1,3 +1,4 @@
+# https://help.aliyun.com/zh/model-studio/use-qwen-by-calling-api
 import os
 from openai import OpenAI
 

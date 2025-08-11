@@ -6,8 +6,8 @@
     "configurations": [
 
         {
-            "name": "Python: Current File",
-            "type": "python",
+            "name": "Run",
+            "type": "debugpy",
             "request": "launch",
             "cwd": "${workspaceFolder}",
             // "program": "test/test_langchain_up_qwen3_coder.py",
