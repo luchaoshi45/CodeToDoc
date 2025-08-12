@@ -11,7 +11,8 @@
             "request": "launch",
             "cwd": "${workspaceFolder}",
             // "program": "test/test_langchain_up_qwen3_coder.py",
-            "program": "test/test_langchain_complex_chain.py",
+            // "program": "test/test_langchain_complex_chain.py",
+            "program": "course/LCEL.py",
             "console": "integratedTerminal",
             "justMyCode": true
         }
