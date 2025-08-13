@@ -1,0 +1,15 @@
+# OpenAI embeddings
+openai_cache = CacheBackedEmbeddings.from_bytes_store(
+    underlying_embeddings=openai_embeddings,
+    document_embedding_cache=store,
+    namespace="text-embedding-ada-002",  # 不同的命名空间
+    key_encoder=sha256_key_encoder,
+)
+
+# HuggingFace embeddings
+hf_cache = CacheBackedEmbeddings.from_bytes_store(
+    underlying_embeddings=hf_embeddings,
+    document_embedding_cache=store,
+    namespace="all-MiniLM-L6-v2",  # 不同的命名空间
+    key_encoder=sha256_key_encoder,
+)
